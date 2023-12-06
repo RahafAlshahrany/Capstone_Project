@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.compose import make_column_transformer
 from sklearn.preprocessing import OrdinalEncoder
 
-st.sidebar.title('Car Price Prediction')
+st.sidebar.title('Leaving The Company Prediction')
 html_temp = """
 <div style="background-color:blue;padding:10px">
 <h2 style="color:white;text-align:center;">Streamlit ML Cloud App </h2>
@@ -17,7 +17,7 @@ last_evaluation=st.sidebar.slider("What was your last evaluation?", 0, 100, step
 num_project=st.sidebar.slider("Select the number of projects", 1,10, step=1)
 time_in_company=st.sidebar.slider("How many years did you spend in the company?",1,20, step=1)
 salary=st.sidebar.selectbox("Which category describes you salary?", ('Low', 'Medium', 'High'))
-department=st.sidebar.selectbox("Which department do work in?", ('Sales', 'Technical', 'Support','IT', 'RandD', 'Product manager','Marketing', 'Accounting', 'HR', 'Management'))
+department=st.sidebar.selectbox("Which department do you work in?", ('Sales', 'Technical', 'Support','IT', 'RandD', 'Product manager','Marketing', 'Accounting', 'HR', 'Management'))
 
 rf_model=pickle.load(open("model.pkl","rb"))
 transformer = pickle.load(open('transformer.pkl', 'rb'))
