@@ -1,5 +1,7 @@
-Please before running project2.py, make sure to install the
-# the pip install xgboost
+# Please before running project2.py, make sure to install the
+ the pip install xgboost
+
+ 
 # and also the sklearn install 
 pip3 install scikit-learn==1.2.2
 pip3 install scikit-learn==1.3.2
