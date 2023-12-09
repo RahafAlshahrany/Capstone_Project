@@ -88,7 +88,7 @@ st.markdown(
 )
 
 # Group members section
-st.header("Conducted by:")
+st.markdown('<h3 class="inner-header">Conducted by:</h3>', unsafe_allow_html=True)
 members = ["Afnan Alotaibi", "Hussan Alzain", "Marwah Barnawi", "Rahaf Saeed", "Salma Mohammed", "Waad Alharthi", "Aeshah Mater", "Atheer Rashed", "Sarah Moshabab"]
 for i in range(0, len(members), 2):
     if i + 1 < len(members):
