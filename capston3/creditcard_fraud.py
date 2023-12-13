@@ -21,10 +21,15 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 animation_url = "https://lottie.host/e03cc179-08ac-4afa-9d56-765cbb67fcf6/082ASWRCYT.json"
 st_lottie(animation_url, speed=1, height=300, key="animation")
 
+#@st.cache_data
+#def load_data():
+  #  return pd.read_csv('creditcard.csv')
+
+#df = load_data()
+
 # Load the data using st.cache_data to speed up the app
-@st.cache_data
 def load_data():
-    return pd.read_csv('creditcard.csv')
+    return pd.read_csv('data2.csv.gz', compression='gzip')
 
 df = load_data()
 
