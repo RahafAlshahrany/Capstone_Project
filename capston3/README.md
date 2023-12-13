@@ -16,6 +16,9 @@ font = "serif"
 5) save the changes control +S
 6) cntrol +X to exite
 7) you will see the Theming
+   ____________________________________________________________________________________________________________
+   https://docs.kanaries.net/topics/Streamlit/streamlit-theming
+   https://docs.streamlit.io/library/advanced-features/theming
 ______________________________________________________________________________________________________________________
 # may you need install some of pakeges but i forget witch one
 # ملاحظات اخرى 
