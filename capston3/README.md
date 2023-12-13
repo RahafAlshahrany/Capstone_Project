@@ -18,3 +18,10 @@ font = "serif"
 7) you will see the Theming
 ______________________________________________________________________________________________________________________
 # may you need install some of pakeges but i forget witch when 
+# ملاحظات اخرى 
+فيه 3 صفحات
+1 ) في الملف الاساسي 
+ 
+2) الثانيه في فولدر pages
+3) الثالثه في فولدر imeges 
+    وصفحه  creditcard_fraud.py تعتمد على ملف الداتا 
