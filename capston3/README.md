@@ -12,8 +12,8 @@ backgroundColor = "#00172B"
 secondaryBackgroundColor = "#738893"
 textColor = "#FFFFFF"
 font = "serif"
-
-5) cntrol +X to exite
-6) you will see the Theming
+5) save the changes control +S
+6) cntrol +X to exite
+7) you will see the Theming
 ______________________________________________________________________________________________________________________
 # may you need install some of pakeges but i forget witch when 
