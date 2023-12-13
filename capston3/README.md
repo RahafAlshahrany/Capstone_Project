@@ -1,3 +1,4 @@
+## you must save the csv file of dataset with creditcard_fraud.py the app depends on it
 # for run the app 
 first thing must change Streamlit Theming:
 1) open gitbash
