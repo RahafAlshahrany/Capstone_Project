@@ -17,7 +17,7 @@ font = "serif"
 6) cntrol +X to exite
 7) you will see the Theming
 ______________________________________________________________________________________________________________________
-# may you need install some of pakeges but i forget witch when 
+# may you need install some of pakeges but i forget witch one
 # ملاحظات اخرى 
 فيه 3 صفحات
 1 ) في الملف الاساسي 
